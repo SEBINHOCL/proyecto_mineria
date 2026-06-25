@@ -51,6 +51,9 @@ mineria_futbol/
 ## Requisitos
 
 - Python 3.10 o superior
+  ```bash
+  sudo apt install python3.12-venv
+  ```
 - La API key de api-football.com es **opcional**: los datos ya están incluidos en el repositorio (`data/raw/` y `data/football.db`), por lo que se puede ejecutar el dashboard directamente sin cuenta. Solo es necesaria si se quiere re-descargar los datos desde la API.
 
 ---
