@@ -63,8 +63,9 @@ git clone https://github.com/SEBINHOCL/proyecto_mineria.git
 cd proyecto_mineria
 
 # 2. Crear entorno virtual
-python -m venv .venv
+python3 -m venv .venv          # Linux/Mac
 source .venv/bin/activate      # Linux/Mac
+python -m venv .venv           # Windows
 .venv\Scripts\activate         # Windows
 
 # 3. Instalar dependencias
